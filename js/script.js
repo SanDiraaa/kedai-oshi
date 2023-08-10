@@ -3,7 +3,7 @@ const navbarNav = document.querySelector(".navbar-nav");
 // Ketika Hamburger menu di klik
 document.querySelector("#hamburger-menu").onclick = (e) => {
   navbarNav.classList.toggle("active");
-  e.prefentDefault();
+  e.preventDefault();
 };
 
 // Klik diluar sidebar untuk menghilangkan navbar //
