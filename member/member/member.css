@@ -86,6 +86,44 @@ body {
   display: none;
 }
 
+/* About Section */
+
+.about h2 {
+  text-align: center;
+  padding-top: 8rem;
+  font-size: 250%;
+}
+
+.about .row .about-img {
+  flex: 1 1 45rem;
+  margin-top: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about .row .about-img img {
+  border-radius: 50%;
+}
+
+.about .content {
+  display: flex;
+  justify-content: center;
+}
+
+.about .content .content-table {
+  margin: 25px 0;
+  border-collapse: collapse;
+  font-size: 1.2rem;
+  min-width: 600px;
+  border-top: 3px solid #fff;
+  margin-top: 3rem;
+}
+
+.about .content .content-table th {
+  padding: 1rem 0.5rem;
+}
+
 /* Media Quieries */
 
 /* Laptop */
