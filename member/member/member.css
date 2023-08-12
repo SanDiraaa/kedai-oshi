@@ -116,7 +116,6 @@ body {
   border-collapse: collapse;
   font-size: 1.2rem;
   min-width: 600px;
-  border-top: 3px solid #fff;
   margin-top: 3rem;
 }
 
@@ -166,6 +165,10 @@ body {
 
   .navbar .navbar-nav a::after {
     transform-origin: 0 0;
+  }
+
+  .about .content .content-table {
+    flex-wrap: wrap;
   }
 }
 
