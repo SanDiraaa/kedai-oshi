@@ -123,6 +123,18 @@ body {
   padding: 1rem 0.5rem;
 }
 
+.about .sosmed a {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+.about .sosmed a:hover {
+  color: var(--primary);
+}
+
 /* Media Quieries */
 
 /* Laptop */
