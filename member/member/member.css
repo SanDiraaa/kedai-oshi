@@ -94,6 +94,10 @@ body {
   font-size: 250%;
 }
 
+.about h2 span {
+  color: var(--primary);
+}
+
 .about .row .about-img {
   flex: 1 1 45rem;
   margin-top: 8rem;
