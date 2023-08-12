@@ -422,7 +422,7 @@ footer .credit a {
     background-image: url("../img/header-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: center;
     position: relative;
   }
 }
