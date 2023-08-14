@@ -127,6 +127,13 @@ body {
   padding: 1rem 0.5rem;
 }
 
+.about .jiko {
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
 .about .sosmed a {
   font-size: 1.2rem;
   margin-top: 3rem;
