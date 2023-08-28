@@ -73,6 +73,47 @@ body {
   transform: scale(0.5);
 }
 
+.navbar .navbar-list {
+  position: absolute;
+  top: 95%;
+  right: 34.7%;
+  background-color: var(--bg);
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 0.3s;
+}
+
+.navbar .navbar-list.active {
+  transform: scaleY(1);
+}
+
+.navbar .navbar-list a {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.navbar .navbar-list a:hover {
+  color: var(--primary);
+}
+
+.navbar .navbar-list a::after {
+  display: block;
+  content: "";
+  padding-bottom: 0.3rem;
+  border-bottom: 0.2rem solid var(--primary);
+  transform: scale(0);
+  transition: 0.2s linear;
+}
+
+.navbar .navbar-list a:hover::after {
+  transform: scale(0.7);
+}
+
 .navbar .navbar-extra a {
   color: #fff;
   margin: 0 0.5rem;
@@ -239,6 +280,7 @@ body {
 }
 
 .menu .gen {
+  padding: 6.2rem 7% 1.4rem;
   text-align: center;
   margin-top: 5rem;
 }
